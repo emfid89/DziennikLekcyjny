@@ -12,6 +12,7 @@ namespace DziennikLekcyjny
     public partial class FormLogowanie : Form
     {
         private Logger m_Logger;
+        private mainWindow MainWindow;
 
         //**********************************************************************************
         public FormLogowanie()
@@ -38,7 +39,9 @@ namespace DziennikLekcyjny
                 }
                 else
                 {
-
+                    MainWindow = new mainWindow();
+                    MainWindow.Show();
+                    this.Hide();
                 }
             }       
         }
