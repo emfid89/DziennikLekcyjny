@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dataGridSettings.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="FormLogowanie.cs">
       <SubType>Form</SubType>
